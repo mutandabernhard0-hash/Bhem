@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@300;400;700&display=swap');
+
+.font-playfair {
+    font-family: 'Playfair Display', serif;
+}
+
+.font-lato {
+    font-family: 'Lato', sans-serif;
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Custom gold color */
+.bg-gold-500 {
+    background-color: #d4af37;
+}
+
+.text-gold-500 {
+    color: #d4af37;
+}
+
+.border-gold-500 {
+    border-color: #d4af37;
+}
+
+/* Card hover effect */
+.card-hover:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Transition effects */
+.transition {
+    transition: all 0.3s ease;
+}
+
+/* Responsive typography */
+@media (max-width: 640px) {
+    .text-responsive {
+        font-size: 1.5rem;
+    }
+}
